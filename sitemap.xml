@@ -1,11 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- Accueil -->
   <url>
-    <loc>https://laffitteelodie.github.io/</loc>
+    <loc>https://laffitteelodie.github.io/ressources_mcf/index.html</loc>
     <priority>1.0</priority>
   </url>
+
+  <!-- Qualification -->
   <url>
-    <loc>https://laffitteelodie.github.io/page2.html</loc>
+    <loc>https://laffitteelodie.github.io/ressources_mcf/qualification.html</loc>
     <priority>0.8</priority>
   </url>
+
+  <!-- Recherche -->
+  <url>
+    <loc>https://laffitteelodie.github.io/ressources_mcf/recherche.html</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Enseignement -->
+  <url>
+    <loc>https://laffitteelodie.github.io/ressources_mcf/enseignement.html</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Résaux  -->
+  <url>
+    <loc>https://laffitteelodie.github.io/ressources_mcf/réseaux_sec37.html</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Industries -->
+  <url>
+    <loc>https://laffitteelodie.github.io/ressources_mcf/industries_sec37.html</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Carrière -->
+  <url>
+    <loc>https://laffitteelodie.github.io/ressources_mcf/carriere.html</loc>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Mentorat -->
+  <url>
+    <loc>https://laffitteelodie.github.io/ressources_mcf/mentorat.html</loc>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- À propos / Contact -->
+  <url>
+    <loc>https://tonpseudo.github.io/apropos.html</loc>
+    <priority>0.6</priority>
+  </url>
+
 </urlset>
