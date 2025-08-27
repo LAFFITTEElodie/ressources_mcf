@@ -1,127 +1,91 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-<head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
-  <!-- ✅ Titre SEO (70 caractères max) -->
+
+  <!-- ✅ SEO -->
   <title>Parcours des Maîtres de Conférences – Ressources & Conseils</title>
-  
-  <!-- ✅ Meta description (150–160 caractères) -->
   <meta name="description" content="Un site dédié aux jeunes Maîtres de Conférences : qualification, recherche, enseignement, carrière et mentorat.">
-  
-  <!-- ✅ Mots-clés (pas indispensable mais peut aider un peu) -->
   <meta name="keywords" content="maître de conférences, MCF, université, qualification, recherche, enseignement, carrière académique">
-  
-  <!-- ✅ Auteur -->
   <meta name="author" content="Elodie Laffitte">
-  
+
   <!-- ✅ Open Graph (partage réseaux sociaux) -->
   <meta property="og:title" content="Parcours des Maîtres de Conférences – Ressources & Conseils">
   <meta property="og:description" content="Site d'accompagnement pour les jeunes MCF : qualification, ressources, recherche, enseignement, carrière.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://laffitteelodie.github.io/ressources_mcf/">
-  <meta property="og:image" content="https://laffitteelodie.github.io/ressources_mcf/image_indexation.png"> <!-- Mets une image carrée de ton site -->
+  <meta property="og:image" content="https://laffitteelodie.github.io/ressources_mcf/image_indexation.png">
 
-  <!-- ✅ Favicon (petite icône de l’onglet navigateur) -->
+  <!-- ✅ Favicon -->
   <link rel="icon" href="images/favicon.ico" type="image/x-icon">
-</head>
-  <title>Ressources MCF - Accueil</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0; padding: 0;
-      background-color: #f9f9f9;
-      color: #333;
-    }
-    header {
-      background-color: #003366;
-      color: white;
-      padding: 1rem;
-    }
-    nav ul {
-      list-style: none;
-      padding: 0;
-      display: flex;
-      gap: 1rem;
-    }
-    nav a {
-      color: black;
-      text-decoration: none;
-      font-weight: bold;
-    }
-    main {
-      padding: 2rem;
-    }
-    section {
-      margin-bottom: 2rem;
-    }
-    footer {
-      background-color: #003366;
-      color: white;
-      text-align: center;
-      padding: 1rem;
-      font-size: 0.9em;
-    }
-  </style>
+
+  <!-- ✅ Feuille de style -->
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <h1>Bienvenue sur le portail des jeunes MCF en sciences</h1>
-    <nav>
-      <ul>
-		<li><a href="index.html">Accueil</a></li>
-        <li><a href="qualification.html">Qualification</a></li>
-        <li><a href="recherche.html">Recherche</a></li>
-        <li><a href="enseignement.html">Enseignement</a></li>
-        <li><a href="carriere.html">Carrière</a></li>
-      </ul>
-    </nav>
+  <!-- ===== HEADER ===== -->
+  <header class="site-header">
+    <div class="container">
+      <h1>Bienvenue sur le portail des jeunes MCF en sciences</h1>
+      <nav class="main-nav">
+        <ul>
+          <li><a href="index.html" class="active">Accueil</a></li>
+          <li><a href="qualification.html">Qualification</a></li>
+          <li><a href="recherche.html">Recherche</a></li>
+          <li><a href="enseignement.html">Enseignement</a></li>
+          <li><a href="carriere.html">Carrière</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
 
-  <main>
-    <section>
-      <h2>Un site collaboratif pour les jeunes MCF en sciences </h2>
+  <!-- ===== MAIN ===== -->
+  <main class="container">
+    <!-- Intro -->
+    <section class="intro">
+      <h2>Un site collaboratif pour les jeunes MCF en sciences</h2>
       <p>
         Ce site regroupe des ressources, témoignages et outils pratiques pour accompagner
         les jeunes Maîtres de Conférences dans leur parcours : préparation à la qualification, pédagogie et enseignement,
-       organisation de la recherche, vie universitaire et gestion de carrière.
+        organisation de la recherche, vie universitaire et gestion de carrière.
       </p>
     </section>
 
-    <section>
+    <!-- A la une -->
+    <section class="a-la-une">
       <h2>À la une</h2>
       <ul>
-        <li>🗓️ <strong>Dossier de qualification</strong> – Forum, mentorat et organisation d'auditions blanches </li>
-        <li>🎙️ <strong>Recherche</strong> – Networking, appels à financement, encadrement de doctorants </li>
-        <li>📚 <strong>Ressources pédagogiques</strong> – partage de MOOC, supports de cours, ressources pédagogiques </li>
-        <li>🧾 <strong> Vie académique </strong> – Gestion de carrière, communication grand public </li>
+        <li>🗓️ <strong>Dossier de qualification</strong> – Forum, mentorat et organisation d'auditions blanches</li>
+        <li>🎙️ <strong>Recherche</strong> – Networking, appels à financement, encadrement de doctorants</li>
+        <li>📚 <strong>Ressources pédagogiques</strong> – Partage de MOOC, supports de cours, ressources pédagogiques</li>
+        <li>🧾 <strong>Vie académique</strong> – Gestion de carrière, communication grand public</li>
       </ul>
     </section>
   </main>
 
-  <footer>
-    <p>Site communautaire – Partagez vos ressources et expériences !</p>
+  <!-- ===== FOOTER ===== -->
+  <footer class="site-footer">
+    <div class="container">
+      <p>Site communautaire – Partagez vos ressources et expériences !</p>
 
-  <!-- Section Commentaires -->
-  <div class="section">
-    <h2>Commentaires</h2>
-    <p>Partagez vos remarques ou questions ci-dessous :</p>
+      <!-- Commentaires -->
+      <div class="commentaires">
+        <h2>Commentaires</h2>
+        <p>Partagez vos remarques ou questions ci-dessous :</p>
 
-    <!-- Utterances -->
-    <script src="https://utteranc.es/client.js"
-            repo="laffitteelodie.github/ressources_mcf/"   <!-- remplace par ton repo ex: moncompte/mon-site -->
-            issue-term="pathname"
-            theme="github-light"
-            crossorigin="anonymous"
-            async>
-    </script>
-	
-	<p> Pour le partage de fichiers, rendez-vous sur le serveur Discord ! </p>
+        <!-- Utterances -->
+        <script src="https://utteranc.es/client.js"
+                repo="laffitteelodie.github/ressources_mcf"
+                issue-term="pathname"
+                theme="github-light"
+                crossorigin="anonymous"
+                async>
+        </script>
 
-  </div>
+        <p><em>Pour le partage de fichiers, rendez-vous sur le serveur Discord !</em></p>
+      </div>
+    </div>
   </footer>
 </body>
-</html>
 </html>
